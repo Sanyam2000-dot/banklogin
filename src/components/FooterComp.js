@@ -101,7 +101,7 @@ const FooterComp = () => (
           fontSize: 16,
         }}
       >
-        ©2020 Copyright&nbsp;:
+        ©2021 Copyright&nbsp;:
         <a className="links-at-footer" href="/">
           &nbsp;NEOG Technical Team
         </a>
