@@ -26,53 +26,53 @@ const LoginPage = () => {
             style={{ fontSize: "2rem", fontWeight: "600" }}
             href="#home"
           >
-            NEOG
-          </Navbar.Brand>
+            NEOG{" "}
+          </Navbar.Brand>{" "}
           <Nav className="mr-auto">
-            <Nav.Link href="#home"> Services </Nav.Link>
-            <Nav.Link href="#features"> Features </Nav.Link>
-            <Nav.Link href="#pricing"> Pricing </Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+            <Nav.Link href="#home"> Services </Nav.Link>{" "}
+            <Nav.Link href="#features"> Features </Nav.Link>{" "}
+            <Nav.Link href="#pricing"> Pricing </Nav.Link>{" "}
+          </Nav>{" "}
+        </Container>{" "}
+      </Navbar>{" "}
       <Container className="outer-box ">
-        <h1> Neog Banking Services </h1>
+        <h1> Neog Banking Services </h1>{" "}
         <Row className="justify-content-md-center">
           <Col md="auto" className="frosted-box">
             <img className="bank-image" src="/bank.svg" alt="" />
-          </Col>
+          </Col>{" "}
           <Col md="auto" style={{ margin: "auto" }}>
             <Form className="form-box">
               <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label> Email address </Form.Label>
+                <Form.Label> Email address </Form.Label>{" "}
                 <Form.Control type="email" placeholder="you@your-domain.com" />
-              </Form.Group>
+              </Form.Group>{" "}
               <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label> Password </Form.Label>
+                <Form.Label> Password </Form.Label>{" "}
                 <Form.Control type="password" placeholder="Password" />
-              </Form.Group>
+              </Form.Group>{" "}
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check
                   style={{ textAlingn: "left", fontSize: "17px" }}
                   type="checkbox"
                   label="I agree to platform's terms of service"
                 />
-              </Form.Group>
+              </Form.Group>{" "}
               <Button variant="dark" style={{ width: "100%" }} type="submit">
                 Log in
-              </Button>
+              </Button>{" "}
               <br />
               <p style={{ marginTop: "8px", fontSize: "17px" }}>
-                Click
+                Click{" "}
                 <a href="/" style={{ textDecoration: "none" }}>
-                  here
+                  here{" "}
                 </a>
                 to sign in
-              </p>
-            </Form>
-          </Col>
-        </Row>
-      </Container>
+              </p>{" "}
+            </Form>{" "}
+          </Col>{" "}
+        </Row>{" "}
+      </Container>{" "}
       <FooterComp />
     </>
   );
